@@ -4,6 +4,8 @@ This tool uses the IAQ by David Bird (https://github.com/G6EJD/BME680-Example/).
 
 I improved the calculation.
 
+![functions](./function_lowres.png)
+
 ## COPYRIGHT OF IAQ
 (c) d.l.bird 2018 all rights reserved and as per the Licence agreements listed in my software.
 
