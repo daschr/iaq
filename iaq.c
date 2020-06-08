@@ -18,6 +18,6 @@ int main(int ac, char *as[]) {
         }
     }
 
-    printf("%lf\n", get_IAQ(vals[0], vals[1], vals[2]));
+    printf("%.4lf\n", get_IAQ(vals[0], vals[1], vals[2]));
     return EXIT_SUCCESS;
 }
