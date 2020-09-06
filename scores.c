@@ -21,7 +21,7 @@ double temp_score(double temperature) {
 
 double gasres_score(double resistance) {
 #define X resistance
-    return 80.0 - X/625.0;
+    return 80.0 - (X<50000?X:50000) / 625.0;
 #undef X
 }
 
